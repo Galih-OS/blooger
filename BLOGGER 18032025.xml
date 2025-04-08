@@ -2,10 +2,27 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' expr:lang='data:blog.localeUnderscoreDelimited' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
-    <!--iklan-->
-  <script async='async' custom-element='amp-auto-ads' src='https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js'/>
-  <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9607610058453393'/>
-  <meta content='ca-pub-9607610058453393' name='google-adsense-account'/>
+<meta content='ca-pub-9607610058453393' name='google-adsense-account'/>
+  
+<!--blokir templet bawaan-->  
+<style>
+  #mycontent {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    writing-mode: horizontal-tb !important;
+    text-align: left !important;
+    transform: none !important;
+    font-size: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    line-height: 0 !important;
+    pointer-events: none !important;
+  }
+</style>
+  
+  
 <b:include name='theme-head'/>
 <b:if cond='!data:view.isLayoutMode'>
 <!-- Theme CSS Style -->
@@ -15,7 +32,7 @@ Blogger Template Style INews - Version - 1.0
 Name:         iNews
 License:      Free Version
 Version:      1.0
-Author:       Templateify
+Author:       Galihos
 Author Url:   https://e-galihos.blogspot.com/
 -----------------------------------------------*/
 
@@ -6056,7 +6073,11 @@ html,body#layout #outer-wrapper,body#layout .row{
     </b:includable>
   </b:defaultmarkup>
 </b:defaultmarkups>
-   
+  
+  <!--iklan-->
+  <script async='async' custom-element='amp-auto-ads' src='https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js'/>
+  <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9607610058453393'/>
+  
   </head>
 <body>
 <b:include name='theme-body-class'/>
@@ -6115,13 +6136,15 @@ html,body#layout #outer-wrapper,body#layout .row{
           <b:section class='topbar flex-sb' id='topbar' maxwidgets='2' name='Topbar' showaddelement='yes'>
             <b:widget id='LinkList201' locked='true' title='Pages' type='LinkList' visible='true'>
               <b:widget-settings>
+                <b:widget-setting name='link-3'>https://www.blogger.com/</b:widget-setting>
                 <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                <b:widget-setting name='text-1'>About Us</b:widget-setting>
-                <b:widget-setting name='link-1'>https://galih-os.github.io/</b:widget-setting>
+                <b:widget-setting name='text-1'>Tentang Kami</b:widget-setting>
+                <b:widget-setting name='link-1'>https://e-galihos.blogspot.com/p/about-me.html</b:widget-setting>
                 <b:widget-setting name='text-0'>Home</b:widget-setting>
-                <b:widget-setting name='link-2'>https://t.me/galihos</b:widget-setting>
+                <b:widget-setting name='link-2'>https://e-galihos.blogspot.com/p/kontak.html</b:widget-setting>
+                <b:widget-setting name='text-3'>Blogger</b:widget-setting>
                 <b:widget-setting name='link-0'>/</b:widget-setting>
-                <b:widget-setting name='text-2'>Contact Us</b:widget-setting>
+                <b:widget-setting name='text-2'>Hubungi Kami</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -6192,22 +6215,24 @@ html,body#layout #outer-wrapper,body#layout .row{
                 <b:section class='inews-pro-main-nav' id='inews-pro-main-nav' maxwidgets='1' name='Header Menu' showaddelement='no'>
                   <b:widget id='LinkList200' locked='true' title='' type='LinkList' visible='true'>
                     <b:widget-settings>
-                      <b:widget-setting name='link-7'>https://e-galihos.blogspot.com/search/label/Teknologi</b:widget-setting>
-                      <b:widget-setting name='link-5'>https://e-galihos.blogspot.com/search/label/Cerita</b:widget-setting>
-                      <b:widget-setting name='link-6'>https://e-galihos.blogspot.com/search/label/Kesehatan</b:widget-setting>
-                      <b:widget-setting name='link-3'>https://www.youtube.com/@galihoktasiwi</b:widget-setting>
-                      <b:widget-setting name='link-4'>#</b:widget-setting>
-                      <b:widget-setting name='text-1'>Dokumentasi</b:widget-setting>
-                      <b:widget-setting name='text-0'>Beranda</b:widget-setting>
-                      <b:widget-setting name='text-3'>_Video Doc</b:widget-setting>
-                      <b:widget-setting name='text-2'>_Web Doc</b:widget-setting>
-                      <b:widget-setting name='text-5'>_Cerita</b:widget-setting>
-                      <b:widget-setting name='text-4'>Kategori</b:widget-setting>
-                      <b:widget-setting name='text-7'>_Teknologi</b:widget-setting>
-                      <b:widget-setting name='text-6'>_Kesehatan</b:widget-setting>
+                      <b:widget-setting name='text-8'>_Video Dokumentasi</b:widget-setting>
+                      <b:widget-setting name='link-7'>https://galih-os.github.io/</b:widget-setting>
+                      <b:widget-setting name='link-8'>https://www.youtube.com/@galihoktasiwi</b:widget-setting>
+                      <b:widget-setting name='link-5'>https://e-galihos.blogspot.com/search/label/Teknologi</b:widget-setting>
+                      <b:widget-setting name='link-6'>#</b:widget-setting>
+                      <b:widget-setting name='link-3'>https://e-galihos.blogspot.com/search/label/Intelijen</b:widget-setting>
+                      <b:widget-setting name='link-4'>https://e-galihos.blogspot.com/search/label/Kesehatan</b:widget-setting>
+                      <b:widget-setting name='text-1'>Kategori</b:widget-setting>
+                      <b:widget-setting name='text-0'>Home</b:widget-setting>
+                      <b:widget-setting name='text-3'>_Intelijen</b:widget-setting>
+                      <b:widget-setting name='text-2'>_Cerita</b:widget-setting>
+                      <b:widget-setting name='text-5'>_Teknologi</b:widget-setting>
+                      <b:widget-setting name='text-4'>_Kesehatan</b:widget-setting>
+                      <b:widget-setting name='text-7'>_Portofolio</b:widget-setting>
+                      <b:widget-setting name='text-6'>Dokumunetasi</b:widget-setting>
                       <b:widget-setting name='sorting'>NONE</b:widget-setting>
                       <b:widget-setting name='link-1'>#</b:widget-setting>
-                      <b:widget-setting name='link-2'>https://galih-os.github.io/</b:widget-setting>
+                      <b:widget-setting name='link-2'>https://e-galihos.blogspot.com/search/label/Cerita</b:widget-setting>
                       <b:widget-setting name='link-0'>https://e-galihos.blogspot.com/</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main' var='this'>
@@ -6737,7 +6762,7 @@ html,body#layout #outer-wrapper,body#layout .row{
           </b:widget>
         </b:section>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets.HTML any w =&gt; w.sectionId == &quot;inews-pro-related-posts&quot;))' id='inews-pro-related-posts' maxwidgets='1' name='Related Posts' showaddelement='yes'>
-          <b:widget id='HTML51' locked='true' title='You might like' type='HTML' visible='true'>
+          <b:widget id='HTML51' locked='true' title='You might like' type='HTML' visible='false'>
             <b:widget-settings>
               <b:widget-setting name='content'>$results={3}</b:widget-setting>
             </b:widget-settings>
@@ -6750,59 +6775,34 @@ html,body#layout #outer-wrapper,body#layout .row{
       </main>
       <aside id='sidebar-wrapper'>
         <b:section class='sidebar templateify-section' id='sidebar' name='Sidebar' showaddelement='yes'>
-          <b:widget id='Label2' locked='false' title='Main Tags' type='Label' version='2' visible='true'>
+          <b:widget id='HTML21' locked='false' title='Subscribe Us' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-              <b:widget-setting name='display'>CLOUD</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'><![CDATA[Business,Gallery,Games,Life & style,Slider,Sports,Technology]]></b:widget-setting>
-              <b:widget-setting name='showType'>ALL</b:widget-setting>
-              <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K40qtN9VlCI?si=3SWoZRJliBduq3Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<style>
+.videoWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+</style>]]></b:widget-setting>
             </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='cloud'>
-      <ul class='cloud-style'>
-        <b:loop values='data:labels' var='label'>
-          <li><a class='label-name btn' expr:href='data:label.url'><data:label.name/><b:if cond='data:this.showFreqNumbers'><b:class name='has-count'/><span class='label-count count-style'>(<data:label.count/>)</span></b:if></a></li>
-        </b:loop>
-      </ul>
-    </b:includable>
-            <b:includable id='content'>
-      <div class='widget-content'>
-        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
-        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
-        <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
-      </div>
-    </b:includable>
-            <b:includable id='list'>
-      <ul class='list-style'>
-        <b:loop values='data:labels' var='label'>
-          <li><a class='label-name' expr:href='data:label.url'><data:label.name/><b:if cond='data:this.showFreqNumbers'><b:class name='has-count'/><span class='label-count count-style'>(<data:label.count/>)</span></b:if></a></li>
-        </b:loop>
-      </ul>
-    </b:includable>
-          </b:widget>
-          <b:widget id='LinkList1' locked='false' title='Follow Us' type='LinkList' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='link-3'>https://github.com/Galih-OS # Github</b:widget-setting>
-              <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='text-1'>youtube</b:widget-setting>
-              <b:widget-setting name='link-1'>https://www.youtube.com/@galihoktasiwi # Youtube</b:widget-setting>
-              <b:widget-setting name='text-0'>telegram</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.instagram.com/galihoktasiwi # Instagram</b:widget-setting>
-              <b:widget-setting name='text-3'>github</b:widget-setting>
-              <b:widget-setting name='link-0'>https://t.me/galihos # Telegram</b:widget-setting>
-              <b:widget-setting name='text-2'>instagram</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='content'>
-      <b:include name='linklist-content'/>
-    </b:includable>
+            <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
           </b:widget>
           <b:widget id='Profile1' locked='false' title='About Me' type='Profile' visible='true'>
             <b:widget-settings>
@@ -6896,6 +6896,26 @@ html,body#layout #outer-wrapper,body#layout .row{
   </a>
 </b:includable>
           </b:widget>
+          <b:widget id='LinkList1' locked='false' title='Follow Us' type='LinkList' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='link-3'>https://github.com/Galih-OS # Github</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='text-1'>youtube</b:widget-setting>
+              <b:widget-setting name='link-1'>https://www.youtube.com/@galihoktasiwi # Youtube</b:widget-setting>
+              <b:widget-setting name='text-0'>telegram</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.instagram.com/galihoktasiwi # Instagram</b:widget-setting>
+              <b:widget-setting name='text-3'>github</b:widget-setting>
+              <b:widget-setting name='link-0'>https://t.me/galihos # Telegram</b:widget-setting>
+              <b:widget-setting name='text-2'>instagram</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+            <b:includable id='content'>
+      <b:include name='linklist-content'/>
+    </b:includable>
+          </b:widget>
           <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
@@ -6967,126 +6987,6 @@ html,body#layout #outer-wrapper,body#layout .row{
             <b:includable id='snippetedPostTitle'><b:comment>Replaced</b:comment></b:includable>
             <b:includable id='snippetedPosts'><b:comment>Replaced</b:comment></b:includable>
           </b:widget>
-          <b:widget id='LinkList940' locked='false' title='Main Menu' type='LinkList' version='1'>
-            <b:includable id='main'>
-          <div class='widget-content'>
-            <ul id='nav1' itemscope='' itemtype='http://schema.org/SiteNavigationElement'> 
-              <b:loop values='data:links' var='link'>
-                <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
-              </b:loop>
-           </ul>
-         
-
-          </div>
-        </b:includable>
-          </b:widget>
-          <b:widget id='HTML21' locked='false' title='Subscribe Us' type='HTML' version='2' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<div class="videoWrapper">
-    <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yBpNB9TQX-4?si=u6-bKZoPzrDSGPVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<style>
-.videoWrapper {
-position: relative;
-padding-bottom: 56.25%; /* 16:9 */
-padding-top: 25px;
-height: 0;
-}
-.videoWrapper iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-</style>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-          </b:widget>
-          <b:widget id='FeaturedPost1' locked='false' title='' type='FeaturedPost' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='showSnippet'>false</b:widget-setting>
-              <b:widget-setting name='showPostTitle'>false</b:widget-setting>
-              <b:widget-setting name='postId'>0</b:widget-setting>
-              <b:widget-setting name='showFirstImage'>false</b:widget-setting>
-              <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <div class='widget-content'>
-        <b:loop values='data:posts' var='post'>
-          <b:include data='post' name='content'/>
-        </b:loop>
-      </div>
-    </b:includable>
-            <b:includable id='blogThisShare'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='bylineByName' var='byline'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='bylineRegion' var='regionItems'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='commentsLink'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='commentsLinkIframe'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='content' var='post'>
-      <div class='featured-post cs'>
-        <a class='entry-inner' expr:href='data:post.url.canonical' expr:title='data:post.title ? data:post.title : data:messages.noTitle'>
-          <span class='entry-image-wrap before-mask'><b:if cond='data:post.featuredImage'><span class='entry-image' expr:data-image='data:post.featuredImage.isYouTube ? resizeImage(data:post.featuredImage.youtubeMaxResDefaultUrl.jsonEscaped, 72, &quot;1:1&quot;) : resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)'/><b:else/><span class='entry-image' data-image='https://resources.blogblog.com/img/blank.gif'/></b:if><b:class expr:name='data:post.featuredImage.isYouTube ? &quot;is-video&quot; : &quot;is-image&quot;'/></span>
-          <div class='entry-header entry-info'>
-            <b:if cond='data:post.labels'><span class='entry-category'><data:post.labels.first.name/></span></b:if>
-            <h2 class='entry-title'><b:eval expr='data:post.title ? data:post.title : data:messages.noTitle'/></h2>
-            <b:if cond='data:widgets.Blog.first.allBylineItems.author or data:widgets.Blog.first.allBylineItems.timestamp'><div class='entry-meta'><b:if cond='data:widgets.Blog.first.allBylineItems.author'><span class='entry-author mi'><b:if cond='data:widgets.Blog.first.allBylineItems.author.label'><span class='sp'><data:widgets.Blog.first.allBylineItems.author.label/></span></b:if><span class='author-name'><data:post.author.name/></span></span></b:if><b:if cond='data:widgets.Blog.first.allBylineItems.timestamp'><span class='entry-time mi'><b:if cond='data:widgets.Blog.first.allBylineItems.author and data:widgets.Blog.first.allBylineItems.timestamp.label'><span class='sp'><data:widgets.Blog.first.allBylineItems.timestamp.label/></span></b:if><time class='published' expr:datetime='data:post.date.iso8601'><data:post.date/></time></span></b:if></div></b:if>
-          </div>
-        </a>
-      </div>
-    </b:includable>
-            <b:includable id='emailPostIcon'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='facebookShare'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='footerBylines'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='googlePlusShare'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='headerByline'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='linkShare'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='otherSharingButton'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='platformShare'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postAuthor'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postCommentsLink'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postJumpLink' var='post'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postLabels'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postLocation'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postReactions'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postShareButtons'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='postTimestamp'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='sharingButton'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='sharingButtonContent'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='sharingButtons'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='sharingButtonsMenu'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='sharingPlatformIcon'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='snippetedPostByline'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='snippetedPostContent'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='snippetedPostThumbnail'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='snippetedPostTitle'><b:comment>Replaced</b:comment></b:includable>
-            <b:includable id='snippetedPosts'><b:comment>Replaced</b:comment></b:includable>
-          </b:widget>
-          <b:widget id='Image2' locked='false' title='Founder' type='Image' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii_cN12LXCWLxzNXcNvLBMVYwaqJTM9F1cmnIl83yTJzfSl4OjYBC91jJot0svJFuT90V3VgkayQPu9picK9jHyKvln62mwNtHCMjjn00qjevZlaEbe2h96TOCuLyoFGzlpFwCqpJ43zcsdfdruaBBt8EZgYqAtJRr6F2I2zC64Z0xng/s220/473393253_1120305512706944_3801554577229751820_n.jpg</b:widget-setting>
-              <b:widget-setting name='displayHeight'>220</b:widget-setting>
-              <b:widget-setting name='sectionWidth'>322</b:widget-setting>
-              <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-              <b:widget-setting name='displayWidth'>220</b:widget-setting>
-              <b:widget-setting name='link'>https://galih-os.github.io/</b:widget-setting>
-              <b:widget-setting name='caption'>Galih OS</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-      <b:include name='widget-title'/>
-      <b:include name='content'/>
-    </b:includable>
-            <b:includable id='content'>
-      <b:include name='image-content'/>
-    </b:includable>
-          </b:widget>
           <b:widget id='Image1' locked='false' title='My Banner' type='Image' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhz4d0yp-8cU0fealYb9AphC5y2wwk3EWkBYbM-rW-2z2hbgT6sf997ssd-f-FqhYgJ3Gu3S2s8Kaw0DPG1oeXKhQ02Vt3lAAVR7hjSpW0b1eEGZZPNvgJY6pwfPoDP0vUdLuXIQb_CdqGfygops2Hn2mbVfQkxNI5ZMrwzcKW2sIGCF1IwF7l-7K3icg=s322</b:widget-setting>
@@ -7105,10 +7005,57 @@ height: 100%;
       <b:include name='image-content'/>
     </b:includable>
           </b:widget>
-          <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse' visible='true'>
-            <b:includable id='main'>
-  <b:include name='reportAbuse'/>
-</b:includable>
+          <b:widget id='Image2' locked='false' title='Founder' type='Image' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii_cN12LXCWLxzNXcNvLBMVYwaqJTM9F1cmnIl83yTJzfSl4OjYBC91jJot0svJFuT90V3VgkayQPu9picK9jHyKvln62mwNtHCMjjn00qjevZlaEbe2h96TOCuLyoFGzlpFwCqpJ43zcsdfdruaBBt8EZgYqAtJRr6F2I2zC64Z0xng/s150/473393253_1120305512706944_3801554577229751820_n.jpg</b:widget-setting>
+              <b:widget-setting name='displayHeight'>150</b:widget-setting>
+              <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+              <b:widget-setting name='displayWidth'>150</b:widget-setting>
+              <b:widget-setting name='link'/>
+              <b:widget-setting name='caption'/>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+            <b:includable id='content'>
+      <b:include name='image-content'/>
+    </b:includable>
+          </b:widget>
+          <b:widget id='Label1' locked='false' title='Categories' type='Label' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+              <b:widget-setting name='display'>LIST</b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'/>
+              <b:widget-setting name='showType'>ALL</b:widget-setting>
+              <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main' var='this'>
+      <b:include name='widget-title'/>
+      <b:include name='content'/>
+    </b:includable>
+            <b:includable id='cloud'>
+      <ul class='cloud-style'>
+        <b:loop values='data:labels' var='label'>
+          <li><a class='label-name btn' expr:href='data:label.url'><data:label.name/><b:if cond='data:this.showFreqNumbers'><b:class name='has-count'/><span class='label-count count-style'>(<data:label.count/>)</span></b:if></a></li>
+        </b:loop>
+      </ul>
+    </b:includable>
+            <b:includable id='content'>
+      <div class='widget-content'>
+        <b:class expr:name='data:this.display + &quot;-label&quot;'/>
+        <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+        <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+      </div>
+    </b:includable>
+            <b:includable id='list'>
+      <ul class='list-style'>
+        <b:loop values='data:labels' var='label'>
+          <li><a class='label-name' expr:href='data:label.url'><data:label.name/><b:if cond='data:this.showFreqNumbers'><b:class name='has-count'/><span class='label-count count-style'>(<data:label.count/>)</span></b:if></a></li>
+        </b:loop>
+      </ul>
+    </b:includable>
           </b:widget>
           <b:widget id='Attribution1' locked='false' title='' type='Attribution' visible='true'>
             <b:widget-settings>
@@ -7144,24 +7091,9 @@ height: 100%;
   </div>
 </b:includable>
           </b:widget>
-          <b:widget id='Feed1' locked='false' title='Feed' type='Feed' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='feedUrl'>https://e-galihos.blogspot.com/feeds/posts/default</b:widget-setting>
-              <b:widget-setting name='openLinksInNewWindow'>true</b:widget-setting>
-              <b:widget-setting name='numItemsShow'>5</b:widget-setting>
-              <b:widget-setting name='showItemDate'>true</b:widget-setting>
-              <b:widget-setting name='showItemAuthor'>false</b:widget-setting>
-            </b:widget-settings>
+          <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse' visible='true'>
             <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <b:include name='content'/>
-</b:includable>
-            <b:includable id='content'>
-  <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
-    <span style='filter: alpha(25); opacity: 0.25;'>
-      <a expr:href='data:feedUrl'><data:loadingMsg/></a>
-    </span>
-  </div>
+  <b:include name='reportAbuse'/>
 </b:includable>
           </b:widget>
         </b:section>
@@ -7189,7 +7121,9 @@ height: 100%;
     <div class='footer-bar flex-c'>
       <div class='container row-x1 flex-sb'>
     <div class='footer-copyright' id='footer-copyright'>
-    <span class='copyright-text'>Design by <a href='https://galih-os.github.io/' id='mycontent' title='Galihos'>Galihos</a> | Publish <a href='https://e-galihos.blogspot.com/' rel='dofollow' style='color:#1a73e8;font-weight:700;' target='_blank' title='mrOS'>Galihos</a></span>
+    <span class='copyright-text'>&#169; Design by Galihos - 2009<a href='#' id='mycontent' style='display:none!important;visibility:hidden!important;opacity:0!important;height:0;width:0;position:absolute;z-index:-9999;'/></span>
+      
+
 
         </div>
 
@@ -7197,12 +7131,10 @@ height: 100%;
           <b:widget id='LinkList204' locked='true' title='Pages' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='text-1'>| Disclaimer</b:widget-setting>
+              <b:widget-setting name='text-1'>Disclaimer</b:widget-setting>
               <b:widget-setting name='link-1'>https://e-galihos.blogspot.com/p/disclaimer.html</b:widget-setting>
-              <b:widget-setting name='text-0'><![CDATA[&copy Copyright | 2009]]></b:widget-setting>
-              <b:widget-setting name='link-2'>https://e-galihos.blogspot.com/p/privay-policy.html</b:widget-setting>
-              <b:widget-setting name='link-0'>https://galih-os.github.io/</b:widget-setting>
-              <b:widget-setting name='text-2'>| Privacy Policy</b:widget-setting>
+              <b:widget-setting name='text-0'>Privacy Policy</b:widget-setting>
+              <b:widget-setting name='link-0'>https://e-galihos.blogspot.com/p/privay-policy.html</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
               <b:include name='widget-title'/>
@@ -7255,18 +7187,18 @@ height: 100%;
 /*! Theia Sticky Sidebar | v1.5.0 - https://github.com/WeCodePixels/theia-sticky-sidebar */
 !function(i){i.fn.theiaStickySidebar=function(t){var e,o,a,s,n;function d(t,e){return!0===t.initialized||!(i("body").width()<t.minWidth)&&(function(t,e){t.initialized=!0,0===i("#theia-sticky-sidebar-stylesheet-"+t.namespace).length&&i("head").append(i('<style id="theia-sticky-sidebar-stylesheet-'+t.namespace+'">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style>')),e.each(function(){var e={};if(e.sidebar=i(this),e.options=t||{},e.container=i(e.options.containerSelector),0==e.container.length&&(e.container=e.sidebar.parent()),e.sidebar.parent().css("-webkit-transform","none"),e.sidebar.css({position:e.options.defaultPosition,overflow:"visible","-webkit-box-sizing":"border-box","-moz-box-sizing":"border-box","box-sizing":"border-box"}),e.stickySidebar=e.sidebar.find(".theiaStickySidebar"),0==e.stickySidebar.length){var o=/(?:text|application)\/(?:x-)?(?:javascript|ecmascript)/i;e.sidebar.find("script").filter(function(i,t){return 0===t.type.length||t.type.match(o)}).remove(),e.stickySidebar=i("<div>").addClass("theiaStickySidebar").append(e.sidebar.children()),e.sidebar.append(e.stickySidebar)}e.marginBottom=parseInt(e.sidebar.css("margin-bottom")),e.paddingTop=parseInt(e.sidebar.css("padding-top")),e.paddingBottom=parseInt(e.sidebar.css("padding-bottom"));var a,s,n,d=e.stickySidebar.offset().top,c=e.stickySidebar.outerHeight();function p(){e.fixedScrollTop=0,e.sidebar.css({"min-height":"1px"}),e.stickySidebar.css({position:"static",width:"",transform:"none"})}e.stickySidebar.css("padding-top",1),e.stickySidebar.css("padding-bottom",1),d-=e.stickySidebar.offset().top,c=e.stickySidebar.outerHeight()-c-d,0==d?(e.stickySidebar.css("padding-top",0),e.stickySidebarPaddingTop=0):e.stickySidebarPaddingTop=1,0==c?(e.stickySidebar.css("padding-bottom",0),e.stickySidebarPaddingBottom=0):e.stickySidebarPaddingBottom=1,e.previousScrollTop=null,e.fixedScrollTop=0,p(),e.onScroll=function(e){if(e.stickySidebar.is(":visible"))if(i("body").width()<e.options.minWidth)p();else{if(e.options.disableOnResponsiveLayouts)if(e.sidebar.outerWidth("none"==e.sidebar.css("float"))+50>e.container.width())return void p();var o,a,s=i(document).scrollTop(),n="static";if(s>=e.sidebar.offset().top+(e.paddingTop-e.options.additionalMarginTop)){var d,c=e.paddingTop+t.additionalMarginTop,b=e.paddingBottom+e.marginBottom+t.additionalMarginBottom,l=e.sidebar.offset().top,h=e.sidebar.offset().top+(o=e.container,a=o.height(),o.children().each(function(){a=Math.max(a,i(this).height())}),a),f=0+t.additionalMarginTop;d=e.stickySidebar.outerHeight()+c+b<i(window).height()?f+e.stickySidebar.outerHeight():i(window).height()-e.marginBottom-e.paddingBottom-t.additionalMarginBottom;var g=l-s+e.paddingTop,S=h-s-e.paddingBottom-e.marginBottom,m=e.stickySidebar.offset().top-s,y=e.previousScrollTop-s;"fixed"==e.stickySidebar.css("position")&&"modern"==e.options.sidebarBehavior&&(m+=y),"stick-to-top"==e.options.sidebarBehavior&&(m=t.additionalMarginTop),"stick-to-bottom"==e.options.sidebarBehavior&&(m=d-e.stickySidebar.outerHeight()),m=0<y?Math.min(m,f):Math.max(m,d-e.stickySidebar.outerHeight()),m=Math.max(m,g),m=Math.min(m,S-e.stickySidebar.outerHeight());var u=e.container.height()==e.stickySidebar.outerHeight();n=!u&&m==f||!u&&m==d-e.stickySidebar.outerHeight()?"fixed":s+m-e.sidebar.offset().top-e.paddingTop<=t.additionalMarginTop?"static":"absolute"}if("fixed"==n){var k=i(document).scrollLeft();e.stickySidebar.css({position:"fixed",width:r(e.stickySidebar)+"px",transform:"translateY("+m+"px)",left:e.sidebar.offset().left+parseInt(e.sidebar.css("padding-left"))-k+"px",top:"0px"})}else if("absolute"==n){var v={};"absolute"!=e.stickySidebar.css("position")&&(v.position="absolute",v.transform="translateY("+(s+m-e.sidebar.offset().top-e.stickySidebarPaddingTop-e.stickySidebarPaddingBottom)+"px)",v.top="0px"),v.width=r(e.stickySidebar)+"px",v.left="",e.stickySidebar.css(v)}else"static"==n&&p();"static"!=n&&1==e.options.updateSidebarHeight&&e.sidebar.css({"min-height":e.stickySidebar.outerHeight()+e.stickySidebar.offset().top-e.sidebar.offset().top+e.paddingBottom}),e.previousScrollTop=s}},e.onScroll(e),i(document).on("scroll."+e.options.namespace,(a=e,function(){a.onScroll(a)})),i(window).on("resize."+e.options.namespace,(s=e,function(){s.stickySidebar.css({position:"static"}),s.onScroll(s)})),"undefined"!=typeof ResizeSensor&&new ResizeSensor(e.stickySidebar[0],(n=e,function(){n.onScroll(n)}))})}(t,e),!0)}function r(i){var t;try{t=i[0].getBoundingClientRect().width}catch(i){}return void 0===t&&(t=i.width()),t}return(t=i.extend({containerSelector:"",additionalMarginTop:0,additionalMarginBottom:0,updateSidebarHeight:!0,minWidth:0,disableOnResponsiveLayouts:!0,sidebarBehavior:"modern",defaultPosition:"relative",namespace:"TSS"},t)).additionalMarginTop=parseInt(t.additionalMarginTop)||0,t.additionalMarginBottom=parseInt(t.additionalMarginBottom)||0,d(e=t,this)||(console.log("TSS: Body width smaller than options.minWidth. Init is delayed."),i(document).on("scroll."+e.namespace,(s=e,n=this,function(t){d(s,n)&&i(this).unbind(t)})),i(window).on("resize."+e.namespace,(o=e,a=this,function(t){d(o,a)&&i(this).unbind(t)}))),this}}(jQuery);
 
-/*! templateifyMenu by Templateify | v1.0.0 - https://galih-os.github.io */
+/*! templateifyMenu by Galihos | v1.0.0 - https://galih-os.github.io */
 !function(a){a.fn.templateifyMenu=function(){return this.each(function(){var $t=a(this),b=$t.find('.LinkList ul > li').children('a'),c=b.length;for(var i=0;i<c;i++){var d=b.eq(i),h=d.text();if(h.charAt(0)!=='_'){var e=b.eq(i+1),j=e.text();if(j.charAt(0)==='_'){var m=d.parent();m.append('<ul class="sub-menu m-sub"/>');}}
 if(h.charAt(0)==='_'){d.text(h.replace('_',''));d.parent().appendTo(m.children('.sub-menu'));}}
 for(var i=0;i<c;i++){var f=b.eq(i),k=f.text();if(k.charAt(0)!=='_'){var g=b.eq(i+1),l=g.text();if(l.charAt(0)==='_'){var n=f.parent();n.append('<ul class="sub-menu2 m-sub"/>');}}
 if(k.charAt(0)==='_'){f.text(k.replace('_',''));f.parent().appendTo(n.children('.sub-menu2'));}}
 $t.find('.LinkList ul li ul').parent('li').addClass('has-sub');});}}(jQuery);
 
-/*! templateifyThumb by Templateify | v1.3.0 - https://galih-os.github.io */
+/*! templateifyThumb by Galihos | v1.3.0 - https://galih-os.github.io */
 !function(o){o.fn.templateifyThumb=function(n){return n=o.extend({onScroll:!0},n),this.each(function(t,c,e){var r=o(this),l=o(window),a=r.data("image"),h="w"+Math.round(r.width()+r.width()/ 10)+"-h"+Math.round(r.height()+r.height()/ 10)+"-p-k-no-nu";function s(){var o=new Image;o.onload=function(){r.attr("style","background-image:url("+this.src+")").addClass("templateify-lazy")},o.src=t}
 a.match("resources.blogblog.com")&&(a="undefined"!=typeof noThumbnail?noThumbnail:"//1.bp.blogspot.com/-rI4UCIrwEI4/YN3nGkf0nCI/AAAAAAAAAD0/DQ6fW7eCps8NL7S0oh374KFg1MsWUf2GQCLcBGAsYHQ/s72-c/ptb-nth.png"),a.match("blogger.googleusercontent.com")&&a.match("=")&&(e=a.split("="),a=e[1]&&""!=e[1].trim()?e[0]+"=w72-h72-p-k-no-nu":a),a.match("blogger.googleusercontent.com")&&!a.match("=")&&(a+="=w72-h72-p-k-no-nu"),t=a.match("/s72-c")?a.replace("/s72-c","/"+h):a.match("/w72-h")?a.replace("/w72-h72-p-k-no-nu","/"+h):a.match("=w72-h")?a.replace("=w72-h72-p-k-no-nu","="+h):a,1==n.onScroll?l.on("load resize scroll",function o(){l.scrollTop()+l.height()>=r.offset().top&&(l.off("load resize scroll",o),s())}).trigger("scroll"):l.on("load",function o(){l.off("load",o),s()}).trigger("load")})}}(jQuery);
 
-/*! templateifyTicker by Templateify | v1.0.0 - https://galih-os.github.io */
+/*! templateifyTicker by Galihos | v1.0.0 - https://galih-os.github.io */
 !function(t){t.fn.templateifyTicker=function(){return this.each(function(){new class{constructor(t){this.ticker=t,this.active=0,this.tickerInit()}
 tickerActive(t){this.active=t,this.items.each(function(){this.classList.remove("active")}),this.items[t].classList.add("active"),this.tickerAuto()}
 tickerArrows(){this.ticker.append('<div class="ticker-nav"><button class="tn-prev" aria-label="Previous"/><button class="tn-next" aria-label="Next"/></div>')}
